@@ -61,5 +61,6 @@ const addMovieHandler = function(){
 
 cancelAddMovieBtn.addEventListener('click',cancelAddMovieHandler);
 backDrop.addEventListener('click',backDropClickHandler);
-
+confirmAddMovieBtn.addEventListener('click',addMovieHandler);
+addMovieBtn.addEventListener('click',toggleMovieModal);
 
